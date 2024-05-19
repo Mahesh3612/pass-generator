@@ -105,7 +105,7 @@ const PasswordGenerator = () => {
         <VStack spacing={2} w={"100%"} alignItems={"center"} justify={"center"} >
           {history.map((item, index) => (
             <Flex alignItems={"center"} gap={5} w={"50%"}  ml={10}>
-              <Text key={index} w={"50%"}>{item}</Text>
+              <Text key={index} w={"70%"}>{item}</Text>
               <CopyToClipboard text={item} w={"50%"}>
                 <FaRegCopy cursor={"pointer"} />
                 {/* <Button colorScheme="teal">Copy to Clipboard</Button> */}
